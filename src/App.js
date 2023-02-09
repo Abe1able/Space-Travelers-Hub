@@ -1,7 +1,7 @@
-import React from "react";
-import { Route, Routes } from "react-router";
-import Navbar from "./components/navbar/navbar";
-import Rockets from "./components/rockets/rocketlist";
+import React from 'react';
+import { Route, Routes } from 'react-router';
+import Navbar from './components/navbar/navbar';
+import Rockets from './components/rockets/rocketlist';
 
 function App() {
   return (

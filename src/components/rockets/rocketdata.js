@@ -1,20 +1,26 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-import { useDispatch } from "react-redux";
-import { booking, cancelBooking } from "../../redux/rocketslice";
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { booking, cancelBooking } from '../../redux/rocketslice';
 
 function RocketData(props) {
   const dispatch = useDispatch();
   const { rocket } = props;
-  const { id, rocketName, description, flickrImages, reserved } = rocket;
+  const {
+    id, rocketName, description, flickrImages, reserved,
+  } = rocket;
 
   return (
     <li className="list-container">
-      <img src={flickrImages[0]} alt="rockets" width={300} height={220} />
-      <div className="heading">
-        <h2>{rocketName}</h2>
+      <img className="rocket-images" src={flickrImages[0]} alt="rockets" />
+      <div className="heading-rockets">
+        <h3 className="rocket-name">{rocketName}</h3>
         <p className="paragraph">
-          {reserved ? <span className="reserved">Reserved</span> : null}
+          {reserved ? (
+            <button type="button" className="reserved">
+              Reserved
+            </button>
+          ) : null}
           {description}
         </p>
         {reserved ? (
