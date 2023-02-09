@@ -18,7 +18,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="mission">
-            <NavLink to="/MISSION" exact activeClassName="active">
+            <NavLink to="/missions" exact activeClassName="active">
               Mission
             </NavLink>
           </li>
