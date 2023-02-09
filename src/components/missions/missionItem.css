@@ -1,9 +1,24 @@
-.Active{
-    background-color: blue;
-    color: #fff;
-  }
-  
-  .Action{
-    background-color: silver;
-    color: #fff;
-  }
+.Active {
+  background-color: blue;
+  color: #fff;
+}
+
+.Action {
+  background-color: silver;
+  color: #fff;
+}
+
+.check {
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  align-items: flex-start;
+  height: auto;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f1f1;
+}

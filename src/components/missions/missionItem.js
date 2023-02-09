@@ -7,7 +7,9 @@ import { joinMission, leavingMission } from '../../redux/missions/missionReducer
 import './missionItem.css';
 
 function MissionItems({ items }) {
-  const { missionId, missionName, description, reserved, } = items;
+  const {
+    missionId, missionName, description, reserved,
+  } = items;
   const dispatch = useDispatch();
 
   const joinAmission = () => {
@@ -19,14 +21,14 @@ function MissionItems({ items }) {
   };
   return (
     <tr key={missionId}>
-      <td>{missionName}</td>
+      <td className="title">{missionName}</td>
       <td>{description}</td>
-      <td>
+      <td className="check">
         <Badge className={reserved ? 'Active' : 'Action'}>
-          {reserved ? 'ACTIVE MEMBER' : 'NOT A MEMEBR'}
+          {reserved ? 'Active Member' : 'Not a Member'}
         </Badge>
       </td>
-      <td>
+      <td className="check" width="15%">
         <Button
           id={missionId}
           onClick={reserved ? leaveAMission : joinAmission}
