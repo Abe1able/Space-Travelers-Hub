@@ -1,12 +1,14 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
 import { useDispatch } from 'react-redux';
-import { joinMission, leavingMission } from '../../redux/missions/missionReducer';
-
+import {
+  joinMission,
+  leavingMission,
+} from '../../redux/missions/missionReducer';
 import './missionItem.css';
 
-/* eslint-disable react/prop-types */
 function MissionItems({ items }) {
   const {
     missionId, missionName, description, reserved,

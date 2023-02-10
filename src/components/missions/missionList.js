@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchMissions } from '../../redux/missions/missionReducer';
 import MissionItems from './missionItem';
+import { fetchMissions } from '../../redux/missions/missionReducer';
+
 import './missionList.css';
 
 function MissionList() {
