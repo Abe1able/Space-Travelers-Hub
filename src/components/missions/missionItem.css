@@ -1,11 +1,20 @@
-.Active {
-  background-color: blue;
-  color: #fff;
+.active {
+  height: 3.3rem;
+  width: 12rem;
+  background-color: rgb(108, 108, 230);
+  border-radius: 3px 3px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  border: none;
+  padding: 3px;
 }
 
-.Action {
+.nonActive {
   background-color: silver;
   color: #fff;
+  padding: 3px;
+  border-radius: 8px;
 }
 
 .check {
@@ -15,7 +24,7 @@
 .title {
   font-size: 20px;
   font-weight: 700;
-  align-items: flex-start;
+  align-items: center;
   height: auto;
 }
 

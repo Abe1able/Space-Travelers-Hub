@@ -24,12 +24,13 @@ function MissionItems({ items }) {
       <td className="title">{missionName}</td>
       <td>{description}</td>
       <td className="check">
-        <Badge className={reserved ? 'Active' : 'Action'}>
+        <Badge className={reserved ? 'active' : 'nonActive'}>
           {reserved ? 'Active Member' : 'Not a Member'}
         </Badge>
       </td>
       <td className="check" width="15%">
         <Button
+          className={reserved ? 'nonActive' : 'active'}
           id={missionId}
           onClick={reserved ? leaveAMission : joinAmission}
           variant={reserved ? 'outline-danger' : 'outline-secondary'}
