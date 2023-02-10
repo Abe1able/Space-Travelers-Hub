@@ -1,0 +1,25 @@
+.tableSection {
+  margin-top: 7rem;
+  padding-inline: 2%;
+}
+
+.border,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  font-weight: 800;
+  text-align: left;
+  font-size: 20px;
+}
+
+.check {
+  text-align: center;
+}
