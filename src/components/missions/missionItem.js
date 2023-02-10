@@ -6,6 +6,7 @@ import { joinMission, leavingMission } from '../../redux/missions/missionReducer
 
 import './missionItem.css';
 
+/* eslint-disable react/prop-types */
 function MissionItems({ items }) {
   const {
     missionId, missionName, description, reserved,
