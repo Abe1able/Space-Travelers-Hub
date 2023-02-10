@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchMissions } from '../../redux/missions/missionReducer';
 import MissionItems from './missionItem';
 
-const MissionList = () => {
+function MissionList() {
   const dispatch = useDispatch();
   const missions = useSelector((state) => state.mission);
   useEffect(() => {
@@ -28,6 +28,6 @@ const MissionList = () => {
       </table>
     </section>
   );
-};
+}
 
 export default MissionList;

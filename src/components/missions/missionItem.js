@@ -1,6 +1,6 @@
 import React from 'react';
-
-const MissionItems = ({ items }) => {
+/* eslint-disable react/prop-types */
+function MissionItems({ items }) {
   const { missionId, missionName, description } = items;
 
   return (
@@ -11,6 +11,6 @@ const MissionItems = ({ items }) => {
       <td>Computer</td>
     </tr>
   );
-};
+}
 
 export default MissionItems;
