@@ -36,7 +36,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
+-  Live Link[https://space-travelers-hub-z8qg.onrender.com]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +99,10 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Key Features <a name="future-features"></a>
+
+  -  Using redux for state management
+  -  react router dom 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
