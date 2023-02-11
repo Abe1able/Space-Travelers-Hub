@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  padding: 2%;
+  background-color: #f5f6fa;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-bar-line {
+  margin-top: 15px;
+  height: 1px;
+  background-color: rgb(20, 2, 92);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.2rem;
+  margin-top: 1px;
+}
+
+.logo-img {
+  height: 5.8rem;
+  width: 5.8rem;
+}
+
+.logo-name {
+  margin-top: 2rem;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #121212;
+  letter-spacing: 1px;
+}
+
+.header-cate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.7rem;
+  margin-top: 2.5rem;
+  color: rgb(39, 39, 168);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.heading-rockets {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rocket-images {
+  width: 250px;
+}
+
+.rocket-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #121212;
+}
+
+.reserved {
+  background-color: rgb(108, 108, 230);
+  height: 2rem;
+  width: 5rem;
+  border: none;
+  border-radius: 3px 3px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+.rocket-button {
+  height: 2.3rem;
+  width: 8rem;
+  background-color: rgb(108, 108, 230);
+  border-radius: 3px 3px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  border: none;
+}
+
+.cancel {
+  height: 2.3rem;
+  width: 8rem;
+  background-color: rgb(5, 5, 37);
+  border-radius: 3px 3px;
+  color: rgb(252, 252, 252);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  border: none;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  gap: 15rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rocket-line {
+  height: 2px;
+  width: 10rem;
+  background-color: black;
+  margin-top: 3px;
+}
+
+.tableSection {
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
